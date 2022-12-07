@@ -1,10 +1,11 @@
 package model
 
 type User struct {
-	UserId   int64  `json:"user_id"`
-	UserName string `json:"user_name"`
-	RoomId   int64  `json:"room_id"`
-	DicePos  int64  `json:"dice_pos"` // 骰子位置
+	UserId       int64  `json:"user_id"`
+	UserName     string `json:"user_name"`
+	RoomId       int64  `json:"room_id"`
+	OperationCnt int64  `json:"operation_cnt"`
+	DicePos      int64  `json:"dice_pos"` // 骰子位置
 }
 
 type SnakesAndLaddersResp struct {

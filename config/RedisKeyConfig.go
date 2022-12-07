@@ -9,4 +9,5 @@ var (
 const (
 	RedisKeyUserIdMax = "user:id:max"
 	RedisKeyUserInfo  = "user:info:{userId}"
+	RedisKeyRoomInfo  = "room:info:{roomId}:{userId}"
 )
